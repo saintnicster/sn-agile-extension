@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>310b6be69374061097607e8efaba1061</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer/>
+        <condition/>
+        <decision_table display_value="Scrum Task Templates for Group">c23aa7e69374061097607e8efaba106e</decision_table>
+        <default_answer>true</default_answer>
+        <input_table>var__m_sys_decision_input_c23aa7e69374061097607e8efaba106e</input_table>
+        <label>Scrum Task Templates for Group default result</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-10 22:46:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>310b6be69374061097607e8efaba1061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scrum Task Templates for Group default result</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agile Enhancements" source="842e33459328021097607e8efaba1041">842e33459328021097607e8efaba1041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
+        <sys_update_name>sys_decision_question_310b6be69374061097607e8efaba1061</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 22:46:26</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-10 22:46:26</sys_created_on>
+        <sys_id>f90b276a9374061097607e8efaba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scrum Task Templates for Group default result</sys_name>
+        <sys_package display_value="Agile Enhancements" source="842e33459328021097607e8efaba1041">842e33459328021097607e8efaba1041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
+        <sys_update_name>sys_metadata_link_f90b276a9374061097607e8efaba10a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 22:46:26</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Business Details" section_id="fa6fbb899328021097607e8efaba1019" sys_domain="global" table="rm_story" version="3" view="scrum">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-22 23:11:56</sys_created_on>
+            <sys_id>2ddd4c999368021097607e8efaba109c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Details" display_value="Business Details" name="rm_story" sys_domain="global" view="df6163019364021097607e8efaba103d">fa6fbb899328021097607e8efaba1019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-22 23:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acceptance_criteria</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-22 23:11:56</sys_created_on>
+            <sys_id>a1dd4c999368021097607e8efaba109d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Business Details" display_value="Business Details" name="rm_story" sys_domain="global" view="df6163019364021097607e8efaba103d">fa6fbb899328021097607e8efaba1019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-22 23:11:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Business Details</caption>
+            <header>false</header>
+            <name>rm_story</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-22 22:08:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa6fbb899328021097607e8efaba1019</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>rm_story</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Agile Enhancements" source="842e33459328021097607e8efaba1041">842e33459328021097607e8efaba1041</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
+            <sys_update_name>sys_ui_section_fa6fbb899328021097607e8efaba1019</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-22 23:11:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Scrum" name="scrum">df6163019364021097607e8efaba103d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

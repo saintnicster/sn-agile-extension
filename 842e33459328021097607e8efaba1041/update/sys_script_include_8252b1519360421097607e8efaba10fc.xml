@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.ScrumTaskGenerator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ScrumTaskGenerator</name>
+        <script><![CDATA[var ScrumTaskGenerator = Class.create();
+ScrumTaskGenerator.prototype = {
+    initialize: function() {
+    },
+
+    type: 'ScrumTaskGenerator'
+};
+ScrumTaskGenerator.getTemplatesForStory = function(storyGR) {
+	var DECISION_TABLE_SYS_ID = "c23aa7e69374061097607e8efaba106e";
+	
+	
+};
+ScrumTaskGenerator.showOnRelList = function(storyGR, storyTaskGR) {
+	return ( parent.canWrite() && storyTaskGR.getRowCount() == 0);
+};
+ScrumTaskGenerator.makeScrumTasks = function(storyGR) {
+	gs.addInfoMessage(gs.getMessage("ScrumTaskGenerator Called -- `{0}` as parent", storyGR.getDisplayValue()));
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 06:31:38</sys_created_on>
+        <sys_id>8252b1519360421097607e8efaba10fc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>ScrumTaskGenerator</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
+        <sys_update_name>sys_script_include_8252b1519360421097607e8efaba10fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 22:50:16</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</claim_owner_scope>
+        <claim_timestamp>18dd4c336b50000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_8252b1519360421097607e8efaba10fc</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Agile Enhancements</previous_claim_name>
+        <previous_claim_scope>842e33459328021097607e8efaba1041</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 06:59:39</sys_created_on>
+        <sys_id>bce8fd199360421097607e8efaba10b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 06:59:39</sys_updated_on>
+    </sys_claim>
+</record_update>
