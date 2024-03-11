@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_deployment_steps" label="Deployment Steps" language="en" table="rm_story">
+    <sys_documentation element="u_deployment_steps" label="Extra Deployment Steps" language="en" table="rm_story">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_deployment_steps</element>
             <help/>
             <hint/>
-            <label>Deployment Steps</label>
+            <label>Extra Deployment Steps</label>
             <language>en</language>
             <name>rm_story</name>
-            <plural>Deployment Steps</plural>
+            <plural>Extra Deployment Steps</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-02-22 22:49:17</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Deployment Steps</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Extra Deployment Steps</sys_name>
             <sys_package display_value="Agile Enhancements" source="842e33459328021097607e8efaba1041">842e33459328021097607e8efaba1041</sys_package>
             <sys_policy/>
             <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
             <sys_update_name>sys_documentation_rm_story_u_deployment_steps_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-22 22:49:17</sys_updated_on>
+            <sys_updated_on>2024-03-10 23:11:23</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

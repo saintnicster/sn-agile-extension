@@ -8,35 +8,43 @@
         <description/>
         <name>ScrumTaskGenerator</name>
         <script><![CDATA[var ScrumTaskGenerator = Class.create();
-ScrumTaskGenerator.prototype = {
-    initialize: function() {
-    },
-
-    type: 'ScrumTaskGenerator'
-};
 ScrumTaskGenerator.getTemplatesForStory = function(storyGR) {
 	var DECISION_TABLE_SYS_ID = "c23aa7e69374061097607e8efaba106e";
+	var dt = new sn_dt.DecisionTableAPI();
 	
+	var input = {u_story: storyGR};
+	var response = dt.getDecisions(DECISION_TABLE_SYS_ID, input);
 	
+	return (response) ? response.map( function(resp) { return resp.result_elements.u_template.getValue(); }) : [];
 };
 ScrumTaskGenerator.showOnRelList = function(storyGR, storyTaskGR) {
-	return ( parent.canWrite() && storyTaskGR.getRowCount() == 0);
+	return ( storyGR.canWrite() && storyTaskGR.getRowCount() == 0 && (ScrumTaskGenerator.getTemplatesForStory(storyGR).length > 0) );
 };
-ScrumTaskGenerator.makeScrumTasks = function(storyGR) {
-	gs.addInfoMessage(gs.getMessage("ScrumTaskGenerator Called -- `{0}` as parent", storyGR.getDisplayValue()));
+ScrumTaskGenerator.makeScrumTasks = function(storyGR) {	
+	var templates = ScrumTaskGenerator.getTemplatesForStory(storyGR);
+	templates.forEach( function(templateID) {
+		var taskGR = new GlideRecord("rm_scrum_task");
+		taskGR.newRecord();
+		GlideTemplate.get(templateID).apply(taskGR);
+		
+		taskGR.setValue("story", storyGR.getUniqueValue());
+		taskGR.setValue("parent", storyGR.getUniqueValue());
+		taskGR.insert();
+	});
+	
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-23 06:31:38</sys_created_on>
         <sys_id>8252b1519360421097607e8efaba10fc</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>ScrumTaskGenerator</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
         <sys_update_name>sys_script_include_8252b1519360421097607e8efaba10fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-10 22:50:16</sys_updated_on>
+        <sys_updated_on>2024-03-11 01:41:54</sys_updated_on>
     </sys_script_include>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</claim_owner_scope>
