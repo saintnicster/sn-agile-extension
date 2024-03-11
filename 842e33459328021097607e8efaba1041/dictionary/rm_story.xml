@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="c051e78d9324021097607e8efaba104c" extends="rm_feature" label="Story" max_length="40" name="rm_story" type="collection">
+        <element label="Technical solution" max_length="4000" name="u_technical_solution" type="string"/>
+        <element label="Patch notes" max_length="4000" name="u_patch_notes" type="string"/>
+        <element label="Extra Deployment Steps" max_length="4000" name="u_deployment_steps" type="string"/>
+        <element label="Update Sets" max_length="255" name="u_update_sets" type="string"/>
+    </element>
+</database>

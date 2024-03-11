@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Story">110b6fe69374061097607e8efaba104a</decision_input>
+        <decision_table display_value="Scrum Task Templates for Group">c23aa7e69374061097607e8efaba106e</decision_table>
+        <default_operator>=</default_operator>
+        <description>Do we want to have different templates for the sub-types of stories?</description>
+        <field>u_story.type</field>
+        <field_label>Story &gt; Type</field_label>
+        <field_parent_table>rm_story</field_parent_table>
+        <label>Story Type</label>
+        <order>50</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-10 22:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>250be7e69374061097607e8efaba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Agile Enhancements" source="842e33459328021097607e8efaba1041">842e33459328021097607e8efaba1041</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agile Enhancements">842e33459328021097607e8efaba1041</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_250be7e69374061097607e8efaba1017</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-10 22:46:25</sys_updated_on>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+</record_update>

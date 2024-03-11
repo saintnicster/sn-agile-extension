@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="4c51e78d9324021097607e8efaba1089" extends="rm_feature" label="Epic" max_length="40" name="rm_epic" type="collection">
+        <element label="Acceptance Criteria" max_length="8000" name="u_acceptance_criteria" type="html"/>
+        <element label="Advanced Planning" max_length="40" name="u_advanced_planning" type="boolean"/>
+        <element label="Available Tools" max_length="8000" name="u_available_tools" type="html"/>
+        <element label="Benefit Hypothesis" max_length="8000" name="u_benefit_hypothesis" type="html"/>
+        <element label="Business Goals" max_length="8000" name="u_business_goals" type="html"/>
+        <element label="Constraints" max_length="8000" name="u_constraints" type="html"/>
+        <element label="Future Process Flow" max_length="40" name="u_future_process_flow" type="file_attachment"/>
+        <element label="Future Tools" max_length="8000" name="u_future_tools" type="html"/>
+        <element label="Metrics" max_length="8000" name="u_metrics" type="html"/>
+        <element label="Personas" max_length="8000" name="u_personas" type="html"/>
+        <element label="Present Process Flow" max_length="40" name="u_present_process_flow" type="file_attachment"/>
+        <element label="Present Process Flow: Chokepoints/Missing Steps/ Non-optimized Concurrent Steps" max_length="8000" name="u_present_process_flow_missing" type="html"/>
+        <element label="Present Tools" max_length="8000" name="u_present_tools" type="html"/>
+        <element label="Present Tools: Missing Fields/Capabilities/Integrations/Automations" max_length="8000" name="u_present_tools_missing" type="html"/>
+        <element label="The Problem" max_length="8000" name="u_problem" type="html"/>
+        <element label="SME" max_length="8000" name="u_sme" type="html"/>
+        <element label="Use Cases" max_length="8000" name="u_use_cases" type="html"/>
+    </element>
+</database>
