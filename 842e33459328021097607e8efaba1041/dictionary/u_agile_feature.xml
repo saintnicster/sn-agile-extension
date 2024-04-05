@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8ce864bd9311021097607e8efaba10cb" extends="rm_feature" label="Agile Feature" max_length="40" name="u_agile_feature" type="collection">
+        <element label="Parent Epic" max_length="32" name="u_parent_epic" reference="rm_epic" type="reference"/>
+    </element>
+</database>
